@@ -382,17 +382,21 @@ body {
 
 .social-icons {
     display: flex;
-    gap: 12px;
+    gap: 16px;
+    align-items: center;
 }
 
 .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+    color: #808080;
+    transition: var(--transition);
+}
+
+.social-link:hover {
     color: var(--color-black);
+    transform: translateY(-2px);
 }
 
 .footer-columns {
