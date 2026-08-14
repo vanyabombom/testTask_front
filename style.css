@@ -20,6 +20,10 @@
     padding: 0;
 }
 
+a, a:hover, a:focus, a:visited {
+    text-decoration: none !important;
+}
+
 body {
     font-family: var(--font-main);
     color: var(--color-text-main);
